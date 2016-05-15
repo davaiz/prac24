@@ -24,5 +24,5 @@ class Atbash:
 cipher = Atbash()
 line = input()
 while line != '.':
-    print(cipher.encode(line))
+    print(cipher.decode(line))
     line = input()
